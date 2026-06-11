@@ -1,0 +1,24 @@
+# Emotion Detection API — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+aiofiles>=23.2.0
+
+# Settings
+pydantic-settings>=2.2.0
+
+# Deep learning — platform-resolved automatically
+# Windows:  tensorflow-cpu or tensorflow (CPU-only build)
+# Linux/Mac: tensorflow>=2.17.0
+# Note: Python 3.12+ requires TensorFlow 2.17+
+tensorflow>=2.17.0
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Utilities
+numpy>=1.24.0
+pillow>=10.0.0
